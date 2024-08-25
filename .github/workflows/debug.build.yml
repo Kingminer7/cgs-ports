@@ -11,6 +11,7 @@ jobs:
     name: Initial checks
     runs-on: ubuntu-latest
     # why lol
+    # yeah what
     if: startsWith(github.event.head_commit.message, 'v')
     steps:
       - name: Checkout
