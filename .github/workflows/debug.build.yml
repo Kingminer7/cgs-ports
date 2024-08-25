@@ -52,7 +52,6 @@ jobs:
   build-ios:
     name: Build for iOS
     runs-on: macos-latest
-    needs: build
     steps:
       - uses: actions/checkout@v3
 
@@ -80,7 +79,7 @@ jobs:
     name: Package builds
     runs-on: ubuntu-latest
     # if: success() || failure()
-    needs: build-ios
+    needs: ["build-ios","build"]
     steps:
       - uses: geode-sdk/build-geode-mod/combine@main
         id: build
