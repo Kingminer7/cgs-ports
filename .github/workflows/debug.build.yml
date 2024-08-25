@@ -147,7 +147,7 @@ jobs:
         with:
           bindings: geode-catgirls/bindings
           target: iOS
-          gh-pat: ${{ secrets.GH_PAT }}
+          gh-pat: ${{ secrets.GITHUB_TOKEN }}
           # super secret
           
   package:
