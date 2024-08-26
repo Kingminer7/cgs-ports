@@ -15,7 +15,7 @@
         {
             "id": "geode.node-ids",
             "version": ">=v1.12.0-alpha.2",
-            "importance": "required"
+            "importance": "recommended"
         }
     ],
     "api": {
