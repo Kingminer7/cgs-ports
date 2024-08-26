@@ -55,9 +55,9 @@ jobs:
 
       - name: node ids
         run: |
-          New-item 'build\geode-deps\geode.node-ids' -ItemType Directory -force
+          mkdir build\geode-deps\geode.node-ids
           curl https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode -o.\build\geode-deps\geode.node-ids
-          New-Item "build\geode-deps\geode.node-ids\geode-dep-options.json" -ItemType File -Value '{ "required": true }'
+          echo { "required": true } > build\geode-deps\geode.node-ids\geode-dep-options.json
   
       # - name: Fetch Node IDs
       # https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode
