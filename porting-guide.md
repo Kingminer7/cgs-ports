@@ -96,7 +96,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: ['build', 'build-ios']
     steps:
-      - uses: geode-sdk/build-geode-mod/combine@main
+      - uses: geode-catgirls/build-geode-mod/combine@main
         id: build
         name: Combine mods
 
