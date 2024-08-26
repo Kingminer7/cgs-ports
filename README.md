@@ -2,7 +2,7 @@
 TRULY Simple mod that lets you change your game servers.
 ### ~~Report issues [here](https://github.com/Kingminer7/gdps-switcher/issues).~~ Just ping me pls
 ## Features
-- Separate saves for servers
+- ~~Separate saves for servers~~
 - ~~Importing/exporting server lists~~
 - ~~Event Level Support~~
 ### Coming Soon
