@@ -1,41 +1,21 @@
 {
-  "geode": "3.4.0",
-  "gd": {
-    "win": "2.206",
-    "android": "2.206",
-    "mac": "2.206",
-    "ios": "2.206"
-  },
-  "version": "1.0.0",
-  "id": "km7dev.gdps-switcher",
-  "name": "GDPS Switcher",
-  "developer": "km7dev",
-  "description": "Switch between GDPS servers easily.",
-  "tags": [
-    "customization",
-    "online"
-  ],
-  "early-load": true,
-  "repository": "https://github.com/kingminer7/gdps-switcher",
-  "links": {
-    "source": "https://github.com/kingminer7/gdps-switcher"
-  },
-  "issues": {
-    "info": "Report issues on the github issues page.",
-    "url": "https://github.com/kingminer7/gdps-switcher/issues"
-  },
-  "resources": {
-    "spritesheets": {
-      "GS_serverSheet01": [
-        "resources/*.png"
-      ]
-    }
-  },
-  "incompatibilities": [
-    {
-      "id": "sorkopiko.noratelimit",
-      "importance": "breaking",
-      "version": "*"
-    }
-  ]
+	"geode": "3.1.1",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206"
+	},
+	"version": "1.2.1",
+	"id": "hjfod.gmd-api",
+	"name": "GMD API",
+	"developer": "HJfod",
+	"description": "API for working with level files (.gmd)",
+	"links": {
+		"source": "https://github.com/HJfod/GMD-API"
+	},
+	"api": {
+		"include": [
+			"include/*.hpp"
+		]
+	}
 }

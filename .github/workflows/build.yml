@@ -1,9 +1,9 @@
-name: Build GDPS Switcher
+name: Build GMD-API
 
 on:
   push:
     branches:
-      - km7dev.gdps-switcher 
+      - hjfod.gmd-api 
 
 jobs:
   build:
