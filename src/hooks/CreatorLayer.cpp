@@ -1,6 +1,5 @@
-#if defined(GEODE_IS_IOS)
+#if defined(GEODE_IS_DESKTOP) || defined(GEODE_IS_ANDROID)
 
-#else
 #include "../utils/DataManager.hpp"
 #include <Geode/modify/DailyLevelPage.hpp>
 
