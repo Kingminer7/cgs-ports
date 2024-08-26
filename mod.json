@@ -30,13 +30,6 @@
       ]
     }
   },
-  "dependencies": [
-    {
-      "id": "geode.node-ids",
-      "importance": "required",
-      "version": "1.13.1"
-    }
-  ],
   "incompatibilities": [
     {
       "id": "sorkopiko.noratelimit",
