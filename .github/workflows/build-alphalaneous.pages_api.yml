@@ -1,9 +1,9 @@
-name: Build GDPS Switcher
+name: Build alphalaneous.pages_api
 
 on:
   push:
     branches:
-      - km7dev.gdps-switcher 
+      - alphalaneous.pages_api 
 
 jobs:
   build:
