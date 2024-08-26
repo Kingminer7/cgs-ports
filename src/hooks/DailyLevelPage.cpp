@@ -1,6 +1,6 @@
-#ifndef GEODE_IS_IOS
+using namespace geode::prelude;
 
-	using namespace geode::prelude;
+#ifndef GEODE_IS_IOS
 
 	#include <Geode/modify/DailyLevelPage.hpp>
 	class $modify(dLPage, DailyLevelPage) {
