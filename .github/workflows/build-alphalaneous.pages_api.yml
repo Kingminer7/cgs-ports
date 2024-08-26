@@ -55,7 +55,14 @@ jobs:
   
       - name: Fetch Node IDs
       # https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode
-        run: curl https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode -o build/geode-deps/geode.node-ids.geode
+        run: 
+          curl https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode -o build\geode-deps\geode.node-ids.geode
+          if [ -e build\deps\geode.node-ids.geode ]
+          then
+              echo "ok"
+          else
+              echo "nok"
+          fi
 
       - name: Build SPECIFICALLY for iOS which is just ridiculous
         uses: geode-catgirls/build-geode-mod@main
