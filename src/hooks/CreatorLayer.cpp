@@ -1,3 +1,4 @@
+#ifndef GEODE_IS_IOS
 #include "../utils/DataManager.hpp"
 #include <Geode/modify/DailyLevelPage.hpp>
 
@@ -36,3 +37,5 @@ class $modify(creatorLayer, CreatorLayer) {
 		page->show();
 	}
 };
+
+#endif
