@@ -53,16 +53,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: node ids
-        run: |
-          mkdir build\geode-deps\geode.node-ids
-          curl https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode -o.\build\geode-deps\geode.node-ids
-          echo { "required": true } > build\geode-deps\geode.node-ids\geode-dep-options.json
-  
-      # - name: Fetch Node IDs
-      # https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode
-        # run: curl https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode -o /build/geode-deps/geode.node-ids.geode
-
       - name: Build SPECIFICALLY for iOS which is just ridiculous
         uses: geode-catgirls/build-geode-mod@main
         with:
