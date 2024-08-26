@@ -1,9 +1,9 @@
-name: Build alphalaneous.pages_api
+name: Build alphalaneous.pages-api
 
 on:
   push:
     branches:
-      - alphalaneous.pages_api 
+      - alphalaneous.pages-api 
 
 jobs:
   build:
@@ -52,6 +52,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+  
+      - name: Fetch Node IDs
+      # https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode
+        run: curl https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode -o build\geode-deps\geode.node-ids.geode
 
       - name: Build SPECIFICALLY for iOS which is just ridiculous
         uses: geode-catgirls/build-geode-mod@main
