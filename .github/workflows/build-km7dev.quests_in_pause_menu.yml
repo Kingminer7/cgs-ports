@@ -1,9 +1,9 @@
-name: Build Quests in Pause Menu
+name: Build km7dev.sapphire-sdk
 
 on:
   push:
     branches:
-      - km7dev.quests_in_pause_menu
+      - km7dev.sapphire-sdk
 
 jobs:
   build:
