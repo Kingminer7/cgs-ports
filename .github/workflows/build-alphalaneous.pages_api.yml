@@ -1,9 +1,9 @@
-name: Build alphalaneous.pages-api
+name: Build alphalaneous.pages_api
 
 on:
   push:
     branches:
-      - alphalaneous.pages-api 
+      - alphalaneous.pages_api 
 
 jobs:
   build:
