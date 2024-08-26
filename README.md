@@ -6,4 +6,4 @@ porting guide (scuffed warning): [https://km7dev.tech/cgs-ports/porting-guide](h
 - [GDPS Switcher (missing a bunch of stuff)](https://km7dev.tech/cgs-ports/compiled/km7dev.gdps-switcher.geode)
 
 # not by me
-- idk
+- [Node IDs 1.13.1] (https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode)
