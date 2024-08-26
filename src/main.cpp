@@ -1,30 +1,32 @@
-#include <Geode/modify/PauseLayer.hpp>
+#include <Geode/Geode.hpp>
+#include <Geode/ui/GeodeUI.hpp>
 
 using namespace geode::prelude;
 
-class $modify(ModifiedPause, PauseLayer) {
-	void customSetup() {
-    		PauseLayer::customSetup();
+#include <Geode/modify/MenuLayer.hpp>
+class $modify(MyMenuLayer, MenuLayer) {
+	bool init() {
+		if (!MenuLayer::init()) {
+			return false;
+		}
 
-            		CCNode * sprite = CircleButtonSprite::createWithSpriteFrameName("quests.png"_spr, .8f, CircleBaseColor::Green, CircleBaseSize::MediumAlt);
-                    		sprite->setScale(0.6);
+		auto sapphireBtn = CCMenuItemSpriteExtra::create(
+			CircleButtonSprite::createWithSpriteFrameName("sapphire.png"_spr, 1.2f, CircleBaseColor::Green, CircleBaseSize::MediumAlt),
+			this,
+			menu_selector(MyMenuLayer::onSapphire)
+		);
 
-                            		auto questButton = CCMenuItemSpriteExtra::create(
-                                    			sprite,
-                                                			this,
-                                                            			menu_selector(ModifiedPause::onQuests)
-                                                                        		);
-                                                                                		
+		auto menu = this->getChildByID("bottom-menu");
+		menu->addChild(sapphireBtn);
 
-                                                                                        		auto menu = this->getChildByID("right-button-menu");
-                                                                                                		menu->addChild(questButton);
+		sapphireBtn->setID("sapphire"_spr);
 
-                                                                                                        		questButton->setID("quests-button"_spr);
+		menu->updateLayout();
 
-                                                                                                                		menu->updateLayout();
-                                                                                                                        	}
+		return true;
+	}
 
-                                                                                                                            	void onQuests(CCObject*) {
-                                                                                                                                		ChallengesPage::create()->show();
-                                                                                                                                        	}
-                                                                                                                                            };
+	void onSapphire(CCObject*) {
+		geode::openModsList();
+	}
+};

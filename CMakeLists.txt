@@ -2,14 +2,14 @@ cmake_minimum_required(VERSION 3.21)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 if ("${GEODE_TARGET_PLATFORM}" STREQUAL "iOS" OR IOS)
-    set(CMAKE_OSX_ARCHITECTURES "arm64")
-    add_definitions(-DGLES_SILENCE_DEPRECATION)
+	set(CMAKE_OSX_ARCHITECTURES "arm64")
+	add_definitions(-DGLES_SILENCE_DEPRECATION)
 else()
-    set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64")
+	set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64")
 endif()
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 
-project(QuestsinPauseMenu VERSION 1.0.0)
+project(sapphire-sdk VERSION 1.0.0)
 
 add_library(${PROJECT_NAME} SHARED
     src/main.cpp
