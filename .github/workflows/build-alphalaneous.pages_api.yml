@@ -54,7 +54,8 @@ jobs:
           fetch-depth: 0
 
       - name: Make deps dir
-        run: mkdir build\deps\
+        # run: mkdir build\deps\
+        run: touch build\deps\geode.node-ids.geode
   
       - name: Fetch Node IDs
       # https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode
