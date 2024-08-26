@@ -1,6 +1,6 @@
-using namespace geode::prelude;
-
 #if defined(GEODE_IS_DESKTOP) || defined(GEODE_IS_ANDROID)
+
+	using namespace geode::prelude;
 
 	#include <Geode/modify/DailyLevelPage.hpp>
 	class $modify(dLPage, DailyLevelPage) {
