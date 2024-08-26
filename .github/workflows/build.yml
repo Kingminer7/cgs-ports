@@ -1,9 +1,9 @@
-name: Build and Publish (Production)
+name: Build GDPS Switcher
 
 on:
   push:
     branches:
-      - main 
+      - km7dev.gdps-switcher 
       # To freely commit on other branches without publishing the mod
 
 jobs:
