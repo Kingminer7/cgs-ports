@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - km7dev.gdps-switcher 
-      # To freely commit on other branches without publishing the mod
+  workflow_dispatch:
 
 jobs:
   build:
