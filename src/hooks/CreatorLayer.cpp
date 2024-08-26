@@ -1,4 +1,6 @@
-#ifndef GEODE_IS_IOS
+#if defined(GEODE_IS_IOS)
+
+#else
 #include "../utils/DataManager.hpp"
 #include <Geode/modify/DailyLevelPage.hpp>
 
