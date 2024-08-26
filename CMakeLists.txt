@@ -15,8 +15,8 @@ file(GLOB SOURCES
     src/hooks/CCHttpClient-WebRequest.cpp
     # src/hooks/GManager.cpp
     # src/hooks/*.cpp
-    # src/ui/*.cpp
-    # src/ui/*.hpp
+    src/ui/*.cpp
+    src/ui/*.hpp
 )
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
