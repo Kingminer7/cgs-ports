@@ -6,36 +6,31 @@
     "mac": "2.206",
     "ios": "2.206"
   },
-  "version": "1.0.0",
-  "id": "km7dev.gdps-switcher",
-  "name": "GDPS Switcher",
+  "id": "km7dev.quests_in_pause_menu",
+  "name": "Quests in Pause Menu",
+  "version": "v1.0.1",
   "developer": "km7dev",
-  "description": "Switch between GDPS servers easily.",
-  "tags": [
-    "customization",
-    "online"
-  ],
-  "early-load": true,
-  "repository": "https://github.com/kingminer7/gdps-switcher",
-  "links": {
-    "source": "https://github.com/kingminer7/gdps-switcher"
-  },
-  "issues": {
-    "info": "Report issues on the github issues page.",
-    "url": "https://github.com/kingminer7/gdps-switcher/issues"
-  },
+  "description": "Add a quest button to the pause menu",
   "resources": {
     "spritesheets": {
-      "GS_serverSheet01": [
-        "resources/*.png"
+      "km7QuestSheet": [
+        "res/quests.png"
       ]
     }
   },
-  "incompatibilities": [
+  "repository": "https://github.com/kingminer7/quests-in-pause",
+  "links": {
+	"source": "https://github.com/kingminer7/quests-in-pause"
+  },
+  "issues": {
+	"info": "Report issues on the github issues page.",
+	"url": "https://github.com/kingminer7/quests-in-pause/issues"
+  },
+  "dependencies": [
     {
-      "id": "sorkopiko.noratelimit",
-      "importance": "breaking",
-      "version": "*"
+      "id": "geode.node-ids",
+      "importance": "required",
+      "version": "1.13.2"
     }
   ]
 }

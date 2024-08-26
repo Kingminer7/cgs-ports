@@ -1,9 +1,9 @@
-name: Build GDPS Switcher
+name: Build Quests in Pause Menu
 
 on:
   push:
     branches:
-      - km7dev.gdps-switcher 
+      - km7dev.quests_in_pause_menu
 
 jobs:
   build:
