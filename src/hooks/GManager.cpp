@@ -1,4 +1,6 @@
-#ifndef GEODE_IS_IOS
+#if defined(GEODE_IS_IOS)
+
+#else
 
 #include <Geode/modify/GManager.hpp>
 #include "../utils/DataManager.hpp"
