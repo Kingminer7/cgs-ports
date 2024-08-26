@@ -72,7 +72,7 @@ jobs:
   build-ios:
     name: Build for iOS
     runs-on: macos-latest
-    continue-on-error: true
+    continue-on-error: false
     steps:
       - name: Checkout
         uses: actions/checkout@v4
