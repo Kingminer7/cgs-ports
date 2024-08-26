@@ -1,3 +1,7 @@
 ports of some mods
 
-[GDPS Switcher (see release for missing stuff)](https://km7dev.tech/cgs-ports/compiled/km7dev.gdps-switcher.geode)
+# by me
+- [GDPS Switcher (missing a bunch of stuff)](https://km7dev.tech/cgs-ports/compiled/km7dev.gdps-switcher.geode)
+
+# not by me
+- idk
