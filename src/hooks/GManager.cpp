@@ -1,6 +1,4 @@
-#if defined(GEODE_IS_IOS)
-
-#else
+#if defined(GEODE_IS_DESKTOP) || defined(GEODE_IS_ANDROID)
 
 #include <Geode/modify/GManager.hpp>
 #include "../utils/DataManager.hpp"
