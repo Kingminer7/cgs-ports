@@ -1,3 +1,5 @@
+#ifndef GEODE_IS_IOS
+
 #include <Geode/modify/GManager.hpp>
 #include "../utils/DataManager.hpp"
 
@@ -26,3 +28,5 @@ class $modify(GDPSGManager, GManager) {
         GManager::setup();
     }
 };
+
+#endif

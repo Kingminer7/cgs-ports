@@ -12,10 +12,7 @@ project(GDPSSwitcher VERSION 1.1.3)
 
 file(GLOB SOURCES
     src/utils/*.hpp
-    src/hooks/CCHttpClient-WebRequest.cpp
-    src/hooks/MenuLayer.cpp
-    # src/hooks/GManager.cpp
-    # src/hooks/*.cpp
+    src/hooks/*.cpp
     src/ui/*.cpp
     src/ui/*.hpp
 )

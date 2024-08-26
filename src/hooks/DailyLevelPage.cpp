@@ -1,5 +1,7 @@
 using namespace geode::prelude;
 
+#ifndef GEODE_IS_IOS
+
 #include <Geode/modify/DailyLevelPage.hpp>
 class $modify(dLPage, DailyLevelPage) {
 	void onTheSafe(CCObject* h) {
@@ -11,3 +13,5 @@ class $modify(dLPage, DailyLevelPage) {
 		}
 	}
 };
+
+#endif
