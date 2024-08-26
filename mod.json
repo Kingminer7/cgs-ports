@@ -1,41 +1,74 @@
 {
-  "geode": "3.4.0",
-  "gd": {
-    "win": "2.206",
-    "android": "2.206",
-    "mac": "2.206",
-    "ios": "2.206"
-  },
-  "version": "1.0.0",
-  "id": "km7dev.gdps-switcher",
-  "name": "GDPS Switcher",
-  "developer": "km7dev",
-  "description": "Switch between GDPS servers easily.",
-  "tags": [
-    "customization",
-    "online"
-  ],
-  "early-load": true,
-  "repository": "https://github.com/kingminer7/gdps-switcher",
-  "links": {
-    "source": "https://github.com/kingminer7/gdps-switcher"
-  },
-  "issues": {
-    "info": "Report issues on the github issues page.",
-    "url": "https://github.com/kingminer7/gdps-switcher/issues"
-  },
-  "resources": {
-    "spritesheets": {
-      "GS_serverSheet01": [
-        "resources/*.png"
-      ]
+    "geode": "3.4.0",
+    "gd": {
+        "win": "2.206",
+        "android": "2.206",
+        "mac": "2.206"
+    },
+    "version": "v1.2.3",
+    "id": "alphalaneous.pages_api",
+    "name": "Pages API",
+    "developer": "Alphalaneous",
+    "description": "An API to automatically add pages to Quick Search and CreatorLayer",
+    "dependencies": [
+        {
+            "id": "geode.node-ids",
+            "version": ">=v1.12.0-alpha.2",
+            "importance": "required"
+        }
+    ],
+    "api": {
+        "include": [
+            "include/*.h"
+        ]
+    },
+    "links": {
+        "homepage": "https://twitter.com/alphalaneous",
+        "source": "https://github.com/Alphalaneous/Pages-API",
+        "community": "https://discord.gg/Txn2CA5dHF"
+    },
+    "settings": {
+        "menulayer-right-menu": {
+            "name": "MenuLayer Right Menu",
+            "description": "Enable pages on the right menu of the MenuLayer",
+            "type": "bool",
+            "default": true
+        },
+        "menulayer-bottom-menu": {
+            "name": "MenuLayer Bottom Menu",
+            "description": "Enable pages on the bottom menu of the MenuLayer",
+            "type": "bool",
+            "default": true
+        },
+        "creator-layer-menu": {
+            "name": "CreatorLayer Menu",
+            "description": "Enable pages on the CreatorLayer menu",
+            "type": "bool",
+            "default": true
+        },
+        "level-search-layer-quick-search-menu": {
+            "name": "LevelSearchLayer Quick Search Menu",
+            "description": "Enable pages on the LevelSearchLayer Quick Search menu",
+            "type": "bool",
+            "default": true
+        },
+        "pause-layer-menu": {
+            "name": "PauseLayer Menu",
+            "description": "Enable pages on the PauseLayer menu",
+            "type": "bool",
+            "default": true
+        },
+        "levelinfolayer-left-menu": {
+            "name": "LevelInfoLayer Left Menu",
+            "description": "Enable pages on the LevelInfoLayer left menu",
+            "type": "bool",
+            "default": true
+        },
+        "editor-build-tabs-menu": {
+            "name": "Editor Build Tabs Menu",
+            "description": "Enable pages on the Editor Build Tabs menu",
+            "type": "bool",
+            "default": true
+        }
     }
-  },
-  "incompatibilities": [
-    {
-      "id": "sorkopiko.noratelimit",
-      "importance": "breaking",
-      "version": "*"
-    }
-  ]
 }
