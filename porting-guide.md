@@ -15,6 +15,8 @@ endif()
 3. use special build action (see below, don't forget to set GH_PAT in actions secrets)
 4. hope it works, either you get lucky, or you choose between removing crap or finding bindings
 
+if you have issues with `ifndef GEODE_IS_IOS` then use `#if defined(GEODE_IS_DESKTOP) || defined(GEODE_IS_ANDROID)`
+
 have fun btw
 
 ---------------------------
