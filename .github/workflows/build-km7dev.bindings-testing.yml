@@ -1,9 +1,9 @@
-name: Build km7dev.sapphire-sdk
+name: Build km7dev.bindings-testing
 
 on:
   push:
     branches:
-      - km7dev.sapphire-sdk
+      - km7dev.bindings-testing
 
 jobs:
   build:
