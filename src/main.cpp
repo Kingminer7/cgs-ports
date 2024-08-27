@@ -8,7 +8,7 @@ class $modify(CreatorLayer) {
 	void onAdventureMap(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onAdventureMap"  // content
+		    "onAdventureMap",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -16,7 +16,7 @@ class $modify(CreatorLayer) {
 	void onDailyLevel(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onDailyLevel"  // content
+		    "onDailyLevel",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -24,7 +24,7 @@ class $modify(CreatorLayer) {
 	void onEventLevel(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onEventLevel"  // content
+		    "onEventLevel",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -32,7 +32,7 @@ class $modify(CreatorLayer) {
 	void onFeaturedLevels(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onFeaturedLevels"  // content
+		    "onFeaturedLevels",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -40,7 +40,7 @@ class $modify(CreatorLayer) {
 	void onGauntlets(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onGauntlets"  // content
+		    "onGauntlets",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -48,7 +48,7 @@ class $modify(CreatorLayer) {
 	void onLeaderboards(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onLeaderboards"  // content
+		    "onLeaderboards",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -56,7 +56,7 @@ class $modify(CreatorLayer) {
 	void onMapPacks(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onMapPacks"  // content
+		    "onMapPacks",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -64,7 +64,7 @@ class $modify(CreatorLayer) {
 	void onMultiplayer(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onMultiplayer"  // content
+		    "onMultiplayer",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -72,7 +72,7 @@ class $modify(CreatorLayer) {
 	void onMyLevels(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onMyLevels"  // content
+		    "onMyLevels",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -80,7 +80,7 @@ class $modify(CreatorLayer) {
 	void onOnlineLevels(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onOnlineLevels"  // content
+		    "onOnlineLevels",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -88,7 +88,7 @@ class $modify(CreatorLayer) {
 	void onPaths(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onPaths"  // content
+		    "onPaths",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -96,7 +96,7 @@ class $modify(CreatorLayer) {
 	void onSavedLevels(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onSavedLevels"  // content
+		    "onSavedLevels",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -104,7 +104,7 @@ class $modify(CreatorLayer) {
 	void onSecretVault(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onSecretVault"  // content
+		    "onSecretVault",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -112,7 +112,7 @@ class $modify(CreatorLayer) {
 	void onTopLists(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onTopLists"  // content
+		    "onTopLists",  // content
 		    "OK"        // button
 		)->show();
 	}
@@ -120,7 +120,7 @@ class $modify(CreatorLayer) {
 	void onWeeklyLevel(CCObject*) {
 		FLAlertLayer::create(
 		    "Function Ran",    // title
-		    "onWeeklyLevel"  // content
+		    "onWeeklyLevel",  // content
 		    "OK"        // button
 		)->show();
 	}
