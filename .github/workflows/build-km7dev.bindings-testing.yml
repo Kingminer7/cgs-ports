@@ -57,6 +57,7 @@ jobs:
         uses: geode-catgirls/build-geode-mod@main
         with:
           bindings: geode-catgirls/bindings
+          bindings-ref: (wip)-creatorlayer-buttons
           target: iOS
           gh-pat: ${{ secrets.GH_PAT }}
           # super secret
