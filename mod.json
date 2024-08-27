@@ -6,8 +6,8 @@
 		"mac": "2.206",
 		"ios": "2.206"
 	},
-	"id": "km7dev.sapphire-sdk",
-	"name": "sapphire-sdk",
+	"id": "km7dev.bindings-testing",
+	"name": "bindings-testing",
 	"version": "v1.0.0",
 	"developer": "km7dev",
 	"description": "agsd",
