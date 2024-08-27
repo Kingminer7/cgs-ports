@@ -3,7 +3,7 @@
 
 using namespace geode::prelude;
 
-#include <Geode/modify/MenuLayer.hpp>
+#include <Geode/modify/CreatorLayer.hpp>
 class $modify(CreatorLayer) {
 	void onAdventureMap(CCObject*) {
 		FLAlertLayer::create(
