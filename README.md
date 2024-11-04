@@ -6,5 +6,7 @@ ports of some mods
 - [Pages API](https://km7dev.tech/cgs-ports/compiled/alphalaneous.pages_api.geode)
 - [Node IDs 1.13.1](https://km7dev.tech/cgs-ports/compiled/geode.node-ids.geode)
 
+send me more stuff if you have
+
 ngl i dont remember this but here
 porting guide (scuffed warning): [https://km7dev.tech/cgs-ports/porting-guide](https://km7dev.tech/cgs-ports/porting-guide)
